@@ -4,3 +4,8 @@ public
 dist
 node_modules
 .vscode
+.idea
+*.md
+*.woff
+*.ttf
+.husky
