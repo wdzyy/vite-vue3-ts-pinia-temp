@@ -15,7 +15,10 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@vueuse/core": "^8.9.4",
     "axios": "^0.27.2",
+    "element-plus": "^2.2.9",
+    "lodash": "^4.17.21",
     "moment": "^2.29.4",
     "pinia": "^2.0.14",
     "vue": "^3.2.37",
