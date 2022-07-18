@@ -1,7 +1,5 @@
 <script setup lang="ts"></script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div class="w-[200px] h-screen">hello, word!!</div>
 </template>
