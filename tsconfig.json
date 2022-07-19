@@ -3,12 +3,13 @@
     "target": "esnext",
     "module": "esnext",
     "moduleResolution": "node",
+    "importHelpers": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
     "strictFunctionTypes": false,
     "jsx": "preserve",
-    "baseUrl": ".",
+    "baseUrl": "./",
     "allowJs": true,
     "sourceMap": true,
     "esModuleInterop": true,
@@ -56,5 +57,8 @@
     "node_modules",
     "dist",
     "**/*.js"
+  ],
+  "references": [
+    { "path": "./tsconfig.node.json" }
   ]
 }
